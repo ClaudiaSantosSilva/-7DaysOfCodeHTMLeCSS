@@ -3,6 +3,11 @@
     height:100%;
 }
 
+:root{
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
 #nav-bar{
     display:flex;
     width: 1440px;
@@ -34,7 +39,7 @@
     width: 27px;
     height:26.991px;
     flex-shrink: 0;
-    fill:#8e2424
+    fill: var(--main-color)
 }
 
 .nome-empresa{
@@ -190,5 +195,88 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-
 }
+
+.metricas{
+    display: flex;
+    padding-bottom: 96px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+    background: var(--Base-White);
+}
+
+.metricas-container{
+    display: flex;
+    width: 1280px;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.metricas-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch; 
+}
+
+.metric-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+}
+
+.number-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.number{
+    color:var(--main-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.2px;
+}
+
+.metric-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.metric-title{
+    align-self: stretch;
+    color: var(--Gray-900, #101828);
+/* Text lg/Medium */
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.metric-text{
+    align-self: stretch;
+    color: var(--Gray-500, #667085);
+/* Text md/Normal */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+
