@@ -290,7 +290,6 @@
     padding:96px 0px;
     flex-direction: column;
     align-items: center;
-    gap:64px;
     align-self:stretch;
     background: var(--Base-White, #FFF);
     
@@ -298,7 +297,7 @@
 
 .talentos{
     width: 1280px;
-    height: 700px;
+    
 }
 
 .talentos-container{
@@ -390,12 +389,131 @@
 .talentos-image{
     width: 1216px;
     height: 400px;
-    flex-shrink: 0;
-    margin-bottom: 64px;
-   
+    flex-shrink: 0;     
     display: flex;
     align-items: center;
+    /*margin-bottom: 64px;
+    margin-left: 48px;*/
+    margin: 0 auto;
 }
+
+.vagas-abertas{
+    margin-top: 64px;
+    width: 1280px;
+    height: 940px;
+}
+
+.container-vaga-design{
+    display: flex;
+    width: 1280px;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.conteudo-vaga-design{
+    display: flex;
+    width: 768px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.titulo-vaga-design{
+    align-self: stretch;
+    color: var(--Gray-900, #101828);
+/* Text xl/Medium */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+
+.items-job-post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    width: 768px;
+}
+
+.job-post{
+    display: flex;
+    padding: 24px 24px 28px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid var(--Gray-200, #EAECF0);
+    background: var(--Base-White, #FFF);
+}
+
+.content-job-post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.titulo-job-post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.titulo{
+    align-self: stretch;
+    color: var(--Gray-900, #101828);
+/* Text lg/Medium */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.detalhes-job-post{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.tipo-job{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--Gray-500, #667085);
+/* Text md/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.salario{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--Gray-500, #667085);
+/* Text md/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+
+
 
 
 
