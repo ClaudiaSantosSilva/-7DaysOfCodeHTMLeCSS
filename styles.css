@@ -424,7 +424,7 @@
     align-self: stretch;
     color: var(--Gray-900, #101828);
 /* Text xl/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -472,7 +472,7 @@
     align-self: stretch;
     color: var(--Gray-900, #101828);
 /* Text lg/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -492,7 +492,7 @@
     gap: 8px;
     color: var(--Gray-500, #667085);
 /* Text md/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -505,13 +505,135 @@
     gap: 8px;
     color: var(--Gray-500, #667085);
 /* Text md/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
 }
 
+#depoimentos{
+    display: flex;
+    padding-bottom: 96px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: var(--Base-White, #FFF);
+}
+
+.container-depoimentos{
+    display: flex;
+    width: 1280px;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.conteudo-depoimentos{
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: rgba(195, 25, 25, 0.03);
+}
+
+.chamada-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.chamada-depoimentos{
+    align-self: stretch;
+    color:#8E2424;
+    text-align:center;
+    width: 1088px;
+/* Text sm/Semibold */
+    font-family:'Inter', sans-serif;
+    font-size:14px;
+    font-style:normal;
+    font-weight:600;
+    line-height:20px; /* 142.857% */
+}
+
+.titulo-depoimentos{
+    width: 1088px;
+    color: #101828;
+    text-align: center;
+/* Display md/Medium */
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+}
+
+.atribuicao-depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.avatar-texto-depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    width: 1088px;
+}
+
+.avatar{
+    display: flex;
+    width: 56px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+}
+
+.nome-funcao-depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.nome-depoimento{
+    align-self: stretch;
+    color: var(--Gray-900, #101828);
+    text-align: center;
+/* Text md/Medium */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.funcao-depoimento{
+    align-self: stretch;
+    color: var(--Gray-500, #667085);
+    text-align: center;
+/* Text sm/Normal */
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
 
 
 
