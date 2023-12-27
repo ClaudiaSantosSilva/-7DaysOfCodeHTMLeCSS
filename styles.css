@@ -287,35 +287,39 @@
     gap:64px;
     align-self:stretch;
     background: var(--Base-White, #FFF);
+    
 }
 
 .talentos{
     width: 1280px;
-    height: 602px;
+    height: 700px;
 }
 
 .talentos-container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 1280px;
     padding: 0px 32px;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 32px;
 }
 
 .talentos-content{
     display: flex;
     flex-direction: column;
+    width: 1216px;
+    height: 250px;
     align-items: center;
-    gap: 48px;
+    /*gap: 48px;*/
     align-self: stretch;
+    margin-bottom: 0px;
 }
 
 .talentos-titulo-texto{
     display: flex;
-    width: 768px;
     flex-direction: column;
     align-items: center;
+    width: 768px;
     gap: 20px;
 
 }
@@ -352,6 +356,8 @@
     align-self: stretch;
     color: var(--Gray-900, #101828);
     text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
 /* Display md/Semibold */
     font-family: 'Inter', sans-serif;
     font-size: 36px;
@@ -365,6 +371,8 @@
     align-self: stretch;
     color: var(--Gray-500, #667085);
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 /* Text xl/Normal */
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -378,7 +386,7 @@
     height: 400px;
     flex-shrink: 0;
     margin-bottom: 64px;
-    margin-top: 64px;
+   
     display: flex;
     align-items: center;
 }
