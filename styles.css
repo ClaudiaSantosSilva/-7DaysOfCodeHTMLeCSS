@@ -128,7 +128,7 @@
     line-height: 24px;
 }
 
-.cabecalho{
+#cabecalho{
     display: flex;
     padding:96px 0px;
     flex-direction: column;
@@ -147,41 +147,17 @@
     line-height: 24px;    
 }
 
-/*.container-cabecalho{
-    display: flex;
-    width: 652px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    
-    flex-direction: column;
-    align-items: center;
-    
-    flex-shrink: 0;
-}*/
-
-/*.heading-cabecalho{
-    display: flex;
-    width: 620px;
-    height: 60px;
-    align-items: flex-start;
-    gap: 64px;
-    flex-shrink: 0;
-}*/
-
 .heading-action{
     display: flex;
     width: 603px;
     flex-direction: column;
-    align-items: center;
-    
-    flex-shrink: 0;
-    
+    align-items: center;    
+    flex-shrink: 0;    
 }
 
 .content-cabecalho{
     display: flex;
-    width: 792px;
-    
+    width: 792px;    
     flex-direction: column;
     align-items: flex-start;
     flex: 1 0 0;
@@ -198,7 +174,7 @@
     line-height: 30px;
 }
 
-.metricas{
+#metricas{
     display: flex;
     padding-bottom: 96px;
     flex-direction: column;
@@ -281,23 +257,20 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    
+    line-height: 24px; /* 150% */    
 }
 
-.vagas{
+#vagas{
     display: flex;
     padding:96px 0px;
     flex-direction: column;
     align-items: center;
     align-self:stretch;
-    background: var(--Base-White, #FFF);
-    
+    background: var(--Base-White, #FFF);    
 }
 
 .talentos{
-    width: 1280px;
-    
+    width: 1280px;    
 }
 
 .talentos-container{
@@ -315,7 +288,6 @@
     width: 1216px;
     height: 250px;
     align-items: center;
-    /*gap: 48px;*/
     align-self: stretch;
     margin-bottom: 0px;
 }
@@ -326,7 +298,6 @@
     align-items: center;
     width: 768px;
     gap: 20px;
-
 }
 
 .talentos-chamada-titulo{
